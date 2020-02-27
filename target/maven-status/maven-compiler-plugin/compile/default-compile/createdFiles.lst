@@ -1,5 +1,4 @@
 view\buttons\NewGameButton.class
-view\buttons\PreviousButton.class
 model\Field.class
 model\GameBoardControllerImpl.class
 model\GameBoard.class
