@@ -6,3 +6,4 @@ your opponent does it. All you have to do is shoot position on 10 x 10 map. If y
 But if you miss, next move belongs to your opponent. Game ends when all 10 ships are destroyed.
 
 First screen
+!(battleship/src/main/resources/view/screen/startPanel.jpg?raw=true "Starting Screen")
