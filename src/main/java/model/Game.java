@@ -89,10 +89,12 @@ public class Game implements GameInterface {
         for (Player p : players) {
 
             // compare number of ships and number of wrecks
-            if (getPlayerGameBoardMap().get(p).getGameBoardControler().getShipwreckNumber() == getPlayerGameBoardMap().get(p).getGameBoardControler().getShipList().size())
+            if (getPlayerGameBoardMap().get(p).getGameBoardControler().getShipwreckNumber() == getPlayerGameBoardMap().get(p).getGameBoardControler().getShipList().size()) {
                 isLoser = true;
+            }
 
         }
+
 
         if (isLoser){
 
